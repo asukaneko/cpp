@@ -4,7 +4,6 @@ int n;
 char a[201][1001];
 int main(){
   while(scanf("%d",&n)!=EOF){
-    memset(a,'0',sizeof(a));
     for(int i=0;i<n;i++)scanf("%s",a[i]);
     for(int i=0;i<n-1;i++){
       for(int j=i+1;j<n;j++){
